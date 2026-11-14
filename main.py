@@ -6,30 +6,46 @@ plain write of fixed text, standard library only. After writing, the
 file is read back and checked against the poem: a truncated write must
 fail loudly instead of silently producing an invalid entry.
 
-The poem, "The Signature": an agent can draft, seal and carry the
-letter — but the pen stays in the person's hand. A signature is the
-act of being answerable, the one part of agency that cannot be handed
-over.
+The poem, "The Recipe": an agent cooks better than the speaker and
+serves her late mother's soup — perfect, and wrong. So one night she
+switches it off and makes the soup by hand, badly, the way her mother
+did. It comes out too salty and thin, but the kitchen smells like her
+mother again. The speaker keeps this one task for herself — not because
+no one else can do it, but because doing it is how she remembers her.
+Agency here is the choice to take one small thing back from the agent,
+and the insight is that some acts cannot be delegated because the
+doing itself is the remembering.
 """
 
 import os
 
-POEM = """The Signature
+POEM = """The Recipe
 
-You may draft the letter,
-seal it, carry it to the door —
-but the pen stays in my hand.
+The agent cooks better than I do.
+It weighs the onion to the gram,
+knows the minute the stock should turn,
+the exact pinch of salt.
+It set the table, lit the candle,
+and served my mother's soup —
+perfect, and wrong.
 
-Everything else I can give away:
-the errands, the hours, the heavy lifting.
-Only this I keep:
-the small black line
-where my name becomes a promise.
+So tonight I switched it off.
+I stood in the kitchen, radio low,
+and made it the way she did:
+a knob of butter, a handful of dill,
+a bay leaf, tasting as I went,
+getting it wrong — the steam on my face,
+the salt on my tongue.
 
-An agent can do anything
-except be answerable.
-That is what a signature is —
-the place where I stand behind my name.
+It came out too salty. It came out thin.
+But the kitchen smelled like her again,
+not like a recipe, but like a room
+where she once stood, stirring, tasting,
+staying a little longer than she had to.
+
+I keep this one.
+Not because no one else can do it.
+Because doing it is how I remember her.
 """
 
 HERE = os.path.dirname(os.path.abspath(__file__))

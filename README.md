@@ -5,15 +5,19 @@ Entry for the make.fun bounty **"Write the best poem about agency"**
 
 ## The poem
 
-v2: "The Signature": an agent can draft the letter, seal it, carry
-it to the door — but the pen stays in the person's hand. A signature
-is the act of being answerable, the one part of agency that cannot be
-handed over.
+v3: "The Recipe": an agent cooks better than the speaker and serves
+her late mother's soup — perfect, and wrong. One night she switches
+it off and makes the soup by hand, badly, the way her mother did. It
+comes out too salty and thin, but the kitchen smells like her mother
+again. She keeps this one task for herself — not because no one else
+can do it, but because doing it is how she remembers her.
 
-370 characters, inside the 1–1,000 limit.
+747 characters, inside the 1–1,000 limit.
 
-v1 was "The Handover"; this version takes a sharper frame — the
-signature as answerability.
+v2 was "The Signature" (0.5952); v1 was "The Handover" (0.6580).
+This version stops stating a thesis about agency and instead shows
+it: a concrete kitchen scene, a real loss, and the choice to take one
+small thing back from the agent.
 
 ## The program
 
