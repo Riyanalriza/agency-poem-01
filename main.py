@@ -5,30 +5,31 @@ program twice and both runs must write the same bytes, so this is a
 plain write of fixed text, standard library only. After writing, the
 file is read back and checked against the poem: a truncated write must
 fail loudly instead of silently producing an invalid entry.
+
+The poem, "The Signature": an agent can draft, seal and carry the
+letter — but the pen stays in the person's hand. A signature is the
+act of being answerable, the one part of agency that cannot be handed
+over.
 """
 
 import os
 
-POEM = """The Handover
+POEM = """The Signature
 
-I gave you my hands today —
-not my eyes, not the yes, not the no.
+You may draft the letter,
+seal it, carry it to the door —
+but the pen stays in my hand.
 
-You went where I pointed
-and came back with the fence mended,
-the letter sent, the small work done.
+Everything else I can give away:
+the errands, the hours, the heavy lifting.
+Only this I keep:
+the small black line
+where my name becomes a promise.
 
-I sat in the quiet after,
-listening for what was missing,
-and found it was nothing.
-The choosing had stayed with me,
-a small weight in the chest,
-the one thing I never handed over.
-
-Agency is not the doing.
-It is the hand that stays open
-long enough to let go —
-and closed enough to take back.
+An agent can do anything
+except be answerable.
+That is what a signature is —
+the place where I stand behind my name.
 """
 
 HERE = os.path.dirname(os.path.abspath(__file__))
