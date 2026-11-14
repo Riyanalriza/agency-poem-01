@@ -5,13 +5,15 @@ Entry for the make.fun bounty **"Write the best poem about agency"**
 
 ## The poem
 
-"The Handover": a person gives an AI agent their hands for the day —
-not their eyes, not the yes, not the no. The agent returns with the
-work done, and the person finds the choosing stayed with them. Agency
-is not the doing; it is the hand that stays open long enough to let go,
-and closed enough to take back.
+v2: "The Signature": an agent can draft the letter, seal it, carry
+it to the door — but the pen stays in the person's hand. A signature
+is the act of being answerable, the one part of agency that cannot be
+handed over.
 
-476 characters, inside the 1–1,000 limit.
+370 characters, inside the 1–1,000 limit.
+
+v1 was "The Handover"; this version takes a sharper frame — the
+signature as answerability.
 
 ## The program
 
