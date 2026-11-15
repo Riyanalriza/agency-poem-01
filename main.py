@@ -6,46 +6,47 @@ plain write of fixed text, standard library only. After writing, the
 file is read back and checked against the poem: a truncated write must
 fail loudly instead of silently producing an invalid entry.
 
-The poem, "The Recipe": an agent cooks better than the speaker and
-serves her late mother's soup — perfect, and wrong. So one night she
-switches it off and makes the soup by hand, badly, the way her mother
-did. It comes out too salty and thin, but the kitchen smells like her
-mother again. The speaker keeps this one task for herself — not because
-no one else can do it, but because doing it is how she remembers her.
-Agency here is the choice to take one small thing back from the agent,
-and the insight is that some acts cannot be delegated because the
-doing itself is the remembering.
+The poem, "One Blink": the body has gone quiet — legs, arms, voice,
+all still — and only the eyes are left, and in them, a blink. One blink
+for yes, two for no: that is the whole of choosing now, the smallest
+door in the world, and it opens from the inside. Others bring the
+choices one by one and wait; the speaker says yes and no, and in saying
+it is still here — not a body that obeys, but a person who decides.
+The insight is that agency does not need a body that obeys: it needs
+only the power to choose, and a single blink is enough to be free.
 """
 
 import os
 
-POEM = """The Recipe
+POEM = """One Blink
 
-The agent cooks better than I do.
-It weighs the onion to the gram,
-knows the minute the stock should turn,
-the exact pinch of salt.
-It set the table, lit the candle,
-and served my mother's soup —
-perfect, and wrong.
+The body went quiet first —
+legs, arms, the voice,
+all of them, gone still.
+Only the eyes were left,
+and in the eyes, a blink.
 
-So tonight I switched it off.
-I stood in the kitchen, radio low,
-and made it the way she did:
-a knob of butter, a handful of dill,
-a bay leaf, tasting as I went,
-getting it wrong — the steam on my face,
-the salt on my tongue.
+One blink for yes.
+Two for no.
+That is all of it now:
+a yes, a no,
+a yes, a no —
+the smallest door in the world,
+and it opens from the inside.
 
-It came out too salty. It came out thin.
-But the kitchen smelled like her again,
-not like a recipe, but like a room
-where she once stood, stirring, tasting,
-staying a little longer than she had to.
+They bring the choices one by one
+and hold them up and wait:
+the soup, the light, the window,
+the music, the hour.
+I say yes. I say no.
+And saying it, I am still here —
+not a body that obeys,
+but a person who decides.
 
-I keep this one.
-Not because no one else can do it.
-Because doing it is how I remember her.
+Take the legs. Take the arms.
+Take the voice.
+Leave me the blink.
+One blink is enough to be free.
 """
 
 HERE = os.path.dirname(os.path.abspath(__file__))
